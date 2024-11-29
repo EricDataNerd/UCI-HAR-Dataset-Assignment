@@ -1,6 +1,5 @@
 install.packages("tidyverse") 
 library(dplyr)
-filename <- "Coursera_DS3_Final.zip"
 
 if(!file.exists("./data")){dir.create("./data")}
 #Here are the data for the project:
